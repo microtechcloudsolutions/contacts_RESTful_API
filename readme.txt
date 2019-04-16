@@ -1,4 +1,4 @@
-The API uses the following technoligeis
+The API uses the following technoligies
 1.node js frame work of java script thats allows java script server side code
 2.express js node js frame work 
 3.Joi node js package for validation of data received from a request or client data
@@ -18,7 +18,7 @@ data should be sent as a json object like so:
 }
 The API returns a json file with appropriate response
 
- where 3000 is the port number of the computer where the API is being tested
+ where 3000 is the port number of the computer where the API is being tested on
  TO CREATE MULTIPLE CONTACTS:use "POST http method"
  
  http://localhost:3000/api/contacts

@@ -2,7 +2,8 @@ const express = require('express');
 const app =express();
 const contactsRoutes = require('./routes/contacts')
 const mongoose = require('mongoose');
-const mongodbUri = 'mongodb+srv://admin:pass104@cluster0-sj5ef.mongodb.net/contacts'
+// const mongodbUri = 'mongodb+srv://admin:pass104@cluster0-sj5ef.mongodb.net/contacts'
+const mongodbUri = "mongodb://127.0.0.1:27017/smsgateway-contacts"
 const bodyParser = require('body-parser');
 app.use(express.json());
 
